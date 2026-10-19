@@ -1,0 +1,37 @@
+{
+  "params": {
+    "sS_best_cost": {
+      "s": 100,
+      "S": 120,
+      "lead_weight": 0.0
+    },
+    "sS_service95": {
+      "s": 120,
+      "S": 140,
+      "lead_weight": 0.0
+    },
+    "fixed_best_cost": {
+      "s": 100,
+      "Q": 40,
+      "lead_weight": 0.0
+    },
+    "fixed_service95": {
+      "s": 80,
+      "Q": 40,
+      "lead_weight": 0.5
+    },
+    "sS_emergency": {
+      "s": 100,
+      "S": 120,
+      "s_emerg": -1
+    }
+  },
+  "train_seeds": [
+    0,
+    10
+  ],
+  "test_seeds": [
+    10000,
+    10100
+  ]
+}
