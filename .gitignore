@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+*.log
+
+# Generated model checkpoints
+models/
+
+# Experiment outputs
+logs/
+results/
+figures/
