@@ -5,9 +5,9 @@ import gymnasium as gym
 from gymnasium import spaces
 
 DEFAULT_SUPPLIERS = [
-    dict(name="cheap_slow_risky", unit_cost=4.0, lead=(3, 6), p_down=0.02,  p_up=0.20),
+    dict(name="cheap_slow_risky", unit_cost=4.5, lead=(3, 6), p_down=0.03,  p_up=0.10),
     dict(name="mid",              unit_cost=5.0, lead=(2, 4), p_down=0.01,  p_up=0.30),
-    dict(name="fast_reliable",    unit_cost=7.0, lead=(1, 2), p_down=0.002, p_up=0.50),
+    dict(name="fast_reliable",    unit_cost=6.0, lead=(1, 2), p_down=0.002, p_up=0.50),
 ]
 
 
